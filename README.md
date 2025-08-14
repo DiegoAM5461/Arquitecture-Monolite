@@ -17,19 +17,20 @@ Su arquitectura monolítica facilita el despliegue y mantenimiento, integrando t
 ---
 
 ## 📂 Estructura del proyecto
-###/src
-###/main
-###/java
-###/com/miempresa/supermercado
-###├── controllers/ # Controladores web
-###├── services/ # Lógica de negocio
-###├── repositories/ # Acceso a datos
-###└── models/ # Entidades y modelos
-###/resources
-###├── application.properties
-###├── static/ # Archivos estáticos (CSS, JS, imágenes)
-###└── templates/ # Vistas Thymeleaf
+/src
+/main
+/java
+/com/miempresa/supermercado
+├── controllers/ # Controladores web
+├── services/ # Lógica de negocio
+├── repositories/ # Acceso a datos
+└── models/ # Entidades y modelos
+/resources
+├── application.properties
+├── static/ # Archivos estáticos (CSS, JS, imágenes)
+└── templates/ # Vistas Thymeleaf
 
+---
 📌 Funcionalidades principales
 
 🛍 Gestión de productos: crear, editar, eliminar y listar.
