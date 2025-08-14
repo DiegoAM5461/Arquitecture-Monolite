@@ -17,6 +17,8 @@ Su arquitectura monolítica facilita el despliegue y mantenimiento, integrando t
 ---
 
 ## 📂 Estructura del proyecto
+
+```
 /src
 /main
 /java
@@ -29,20 +31,17 @@ Su arquitectura monolítica facilita el despliegue y mantenimiento, integrando t
 ├── application.properties
 ├── static/ # Archivos estáticos (CSS, JS, imágenes)
 └── templates/ # Vistas Thymeleaf
+```
 
 ---
-📌 Funcionalidades principales
 
-🛍 Gestión de productos: crear, editar, eliminar y listar.
+## 📌 Funcionalidades principales
+- 🛍 **Gestión de productos:** crear, editar, eliminar y listar.
+- 👥 **Gestión de clientes:** registro y administración.
+- 📦 **Gestión de inventario:** control de stock.
+- 🧾 **Gestión de pedidos y ventas:** registro y seguimiento.
+- 📊 **Reportes básicos:** resumen de ventas e inventario.
 
-👥 Gestión de clientes: registro y administración.
+---
 
-📦 Gestión de inventario: control de stock.
-
-🧾 Gestión de pedidos y ventas: registro y seguimiento.
-
-📊 Reportes básicos: resumen de ventas e inventario
-
-💻 Desarrollado por Diego Aguilar
-
-
+💻 **Desarrollado por:** Diego Aguilar
