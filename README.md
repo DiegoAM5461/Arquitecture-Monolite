@@ -32,25 +32,6 @@ Su arquitectura monolítica facilita el despliegue y mantenimiento, integrando t
 
 ---
 
-## 🚀 Instalación y ejecución
-
-### 1️⃣ Clonar el repositorio
-git clone https://github.com/usuario/supermercado-monolito.git
-## 2️⃣ Entrar en el directorio del proyecto
-cd supermercado-monolito
-3️⃣ Configurar la base de datos
-Editar el archivo src/main/resources/application.properties con tus credenciales:
-spring.datasource.url=jdbc:mysql://localhost:3306/supermercado
-spring.datasource.username=tu_usuario
-spring.datasource.password=tu_contraseña
-spring.jpa.hibernate.ddl-auto=update
-
-4️⃣ Ejecutar la aplicación
-mvn spring-boot:run
-
-5️⃣ Acceder a la aplicación
-http://localhost:8080
-
 📌 Funcionalidades principales
 
 🛍 Gestión de productos: crear, editar, eliminar y listar.
